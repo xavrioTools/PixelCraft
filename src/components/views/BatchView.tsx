@@ -141,15 +141,15 @@ export function BatchView() {
   };
 
   // Background Remover parameters
-  const [bgMode, setBgMode] = useState<'auto' | 'custom-color' | 'white-backdrop' | 'green-screen' | 'black-backdrop'>('auto');
-  const [bgScope, setBgScope] = useState<'perimeter' | 'global'>('perimeter');
-  const [bgSensitivity, setBgSensitivity] = useState(35);
-  const [bgFeather, setBgFeather] = useState(2);
-  const [bgReplacerTab, setBgReplacerTab] = useState<CustomBackgroundType>('transparent');
-  const [customBgColor, setCustomBgColor] = useState('#4F46E5');
-  const [customBgGradient, setCustomBgGradient] = useState('indigo-glow');
-  const [customBgImageUrl, setCustomBgImageUrl] = useState<string | null>(null);
-  const [bgBlur, setBgBlur] = useState(0);
+  // const [bgMode, setBgMode] = useState<'auto' | 'custom-color' | 'white-backdrop' | 'green-screen' | 'black-backdrop'>('auto');
+  // const [bgScope, setBgScope] = useState<'perimeter' | 'global'>('perimeter');
+  // const [bgSensitivity, setBgSensitivity] = useState(35);
+  // const [bgFeather, setBgFeather] = useState(2);
+  // const [bgReplacerTab, setBgReplacerTab] = useState<CustomBackgroundType>('transparent');
+  // const [customBgColor, setCustomBgColor] = useState('#4F46E5');
+  // const [customBgGradient, setCustomBgGradient] = useState('indigo-glow');
+  // const [customBgImageUrl, setCustomBgImageUrl] = useState<string | null>(null);
+  // const [bgBlur, setBgBlur] = useState(0);
 
   // Full workspace drag-and-drop zone state
   const [isDragActive, setIsDragActive] = useState(false);

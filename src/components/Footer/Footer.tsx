@@ -83,13 +83,13 @@ export const Footer: React.FC = () => {
                 </button>
               </li>
               <li>
-                <button
+                {/* <button
                   type="button"
                   onClick={() => handleLink('/background-remover')}
                   className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
                 >
                   Background Remover
-                </button>
+                </button> */}
               </li>
               <li>
                 <button

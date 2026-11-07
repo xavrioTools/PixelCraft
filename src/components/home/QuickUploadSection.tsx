@@ -289,7 +289,7 @@ export const QuickUploadSection: React.FC = () => {
                 Choose Action for This Image
               </span>
 
-              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
                 <button
                   type="button"
                   onClick={() => handleSelectTool('/convert')}
@@ -330,15 +330,7 @@ export const QuickUploadSection: React.FC = () => {
                   <span className="text-[10px] text-slate-400">Scale dimensions</span>
                 </button>
 
-                <button
-                  type="button"
-                  onClick={() => handleSelectTool('/background-remover')}
-                  className="col-span-2 sm:col-span-1 flex flex-col items-center justify-center p-3 rounded-xl border border-indigo-200 dark:border-indigo-900/60 bg-indigo-50/40 dark:bg-indigo-950/30 hover:border-indigo-500 hover:bg-indigo-100/60 dark:hover:bg-indigo-900/50 text-center transition-all group"
-                >
-                  <Wand2 className="w-5 h-5 text-indigo-600 dark:text-indigo-400 mb-1 group-hover:scale-110 transition-transform" />
-                  <span className="text-xs font-bold text-indigo-700 dark:text-indigo-300">Remove BG</span>
-                  <span className="text-[10px] text-indigo-500/80">Alpha cutout</span>
-                </button>
+              
               </div>
             </div>
           </div>

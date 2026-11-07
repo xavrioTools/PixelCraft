@@ -34,7 +34,6 @@ export const AboutView: React.FC = () => {
     { name: 'Image Compressor', desc: 'Shrink file size by up to 90% without visible quality loss.', path: '/compress' },
     { name: 'Image Cropper', desc: 'Precision pixel bounding boxes with standard aspect ratio presets.', path: '/crop' },
     { name: 'Image Resizer', desc: 'Scale dimensions or percentage with aspect ratio lock and bicubic filtering.', path: '/resize' },
-    { name: 'Background Remover', desc: 'Smart edge boundary detection with solid color, gradient, or custom backdrops.', path: '/background-remover' },
     { name: 'WebP Converter', desc: 'Modernize legacy assets for Google Core Web Vitals.', path: '/webp-converter' },
     { name: 'Batch Studio', desc: 'Apply quick action presets and bulk operations simultaneously.', path: '/batch' },
   ];
