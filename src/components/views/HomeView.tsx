@@ -28,6 +28,7 @@ import { ToolCard } from '../common/ToolCard';
 import { FaqAccordion } from '../common/FaqAccordion';
 import { QuickUploadSection } from '../home/QuickUploadSection';
 import { BeforeAfterShowcase } from '../home/BeforeAfterShowcase';
+import { AdsterraBanner, AdsterraBanner728 } from '../adstera/AdsterraBanner';
 
 export const HomeView: React.FC = () => {
   const { navigate } = useRouter();
@@ -239,6 +240,12 @@ export const HomeView: React.FC = () => {
           </button>
         </div>
 
+        {/* Banner 728x90 */}
+
+<div className="flex justify-center mt-6" >
+  < AdsterraBanner728  />
+</div>
+
         {/* Hero Visual Mockup Container */}
         <div className="mt-14 relative max-w-4xl mx-auto">
           {/* Main Visual Showcase Card */}
@@ -432,9 +439,10 @@ export const HomeView: React.FC = () => {
         </div>
       </section>
 
-      {/* NativeBanner_1 4:1 */}
-<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
-<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
+    {/* Banner 728x90 */}
+<div className="flex justify-center" >
+  < AdsterraBanner728  />
+</div>
 
       {/* SECTION 6: HOW IT WORKS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -613,9 +621,11 @@ export const HomeView: React.FC = () => {
         </div>
       </section>
 
-      {/* NativeBanner_1 4:1 */}
-<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
-<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
+      {/* Banner 728x90 */}
+
+<div className="flex justify-center" >
+  < AdsterraBanner728  />
+</div>
 
       {/* SECTION 10: FAQ */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6">
