@@ -35,7 +35,13 @@ export const RelatedToolsSection: React.FC<RelatedToolsSectionProps> = ({
   if (relatedTools.length === 0) return null;
 
   return (
+
     <section className={`w-full py-12 ${className}`}>
+
+{/* NativeBanner_1 4:1 */}
+<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
+<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
+
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6">
         <div>
           <div className="flex items-center gap-1.5 text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-1">

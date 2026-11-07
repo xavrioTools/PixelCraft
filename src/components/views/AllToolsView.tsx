@@ -61,6 +61,10 @@ export const AllToolsView: React.FC = () => {
         </div>
       </div>
 
+      {/* NativeBanner_1 4:1 */}
+<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
+<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
+
       {/* Category Segmented Tabs */}
       <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
         {TOOL_CATEGORIES.map((cat) => {

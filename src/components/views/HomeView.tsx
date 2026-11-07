@@ -432,6 +432,10 @@ export const HomeView: React.FC = () => {
         </div>
       </section>
 
+      {/* NativeBanner_1 4:1 */}
+<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
+<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
+
       {/* SECTION 6: HOW IT WORKS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12">
@@ -608,6 +612,10 @@ export const HomeView: React.FC = () => {
           ))}
         </div>
       </section>
+
+      {/* NativeBanner_1 4:1 */}
+<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
+<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
 
       {/* SECTION 10: FAQ */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6">

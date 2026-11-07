@@ -676,6 +676,10 @@ export function BatchView() {
         />
       )}
 
+      {/* NativeBanner_1 4:1 */}
+<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
+<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
+
       {/* Main Batch Workspace */}
       <div className="space-y-6">
         {queue.length === 0 ? (

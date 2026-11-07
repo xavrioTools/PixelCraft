@@ -122,6 +122,11 @@ export const QuickUploadSection: React.FC = () => {
 
   return (
     <div className="w-full">
+
+{/* NativeBanner_1 4:1 */}
+<script async="async" data-cfasync="false" src="https://crypotential.com/6de8cb71d409fab9ac244d9e54d15fb0/invoke.js"></script>
+<div id="container-6de8cb71d409fab9ac244d9e54d15fb0"></div>
+
       <div className="text-center max-w-2xl mx-auto mb-8">
         <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-1">
           <Upload className="w-3.5 h-3.5" />
