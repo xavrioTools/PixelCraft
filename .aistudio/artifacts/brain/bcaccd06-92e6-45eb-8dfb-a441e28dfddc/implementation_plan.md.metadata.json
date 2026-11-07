@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for the PixelCraft Batch Processing Engine, enabling multi-file upload, concurrent client-side editing across all tools (Converter, Compressor, Resizer, Cropper, Background Remover), unified parameter controls with per-file overrides, live grid/list preview queue, and consolidated ZIP archive export.",
+  "updatedAt": "2026-11-07T03:45:49.503873436Z",
+  "requestFeedback": true,
+  "userFacing": true
+}
